@@ -1,0 +1,28 @@
+{
+    "name": "dictionaryAPI",
+    "version": "1.0.0",
+    "description": "API ",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "devStart": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ProfCrunk/dictionary-api.git"
+    },
+    "author": "Sergio Rojas-Aguilar",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^7.0.2",
+      "mongodb": "^5.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    },
+    "bugs": {
+      "url": "https://github.com/ProfCrunk/dictionary-api/issues"
+    },
+    "homepage": "https://github.com/ProfCrunk/dictionary-api"
+  }
